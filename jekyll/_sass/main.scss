@@ -1,0 +1,74 @@
+
+// $header-text-color: white !default;
+// $header-bg-color:   #8b8b8b !default;
+$header-text-color: black !default;
+$header-bg-color:   white !default;
+
+.logo, .logo-large {
+  max-height: 60px;
+  float:left;
+  padding: 1em;
+}
+.logo-large {
+  max-height: 90px;
+}
+.logo.list-item {
+  clear:left;
+}
+
+.floatright {
+  float:right !important;
+}
+
+.site-header {
+  background-color: $header-bg-color;
+}
+
+.site-title {
+  color: $header-text-color !important;
+  font-weight: bold;
+}
+.page-content .post-title {
+  font-size: 36px;
+}
+
+.site-nav .page-link {
+  color: $header-text-color !important;
+}
+
+.page-content .post-content h2 {
+  font-size: 20px;
+  font-weight: 450;
+}
+.page-content .post-content h3 {
+  font-size: 16px;
+  font-weight: 450;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  clear:left;
+}
+
+.lightgrey-bg {
+  background-color: #DDDDDD;
+}
+
+.homepage-text, .homepage-text2 {
+  color: #14148d;
+  font-weight: 350;
+  font-size: 36px;
+  text-align: center;
+}
+
+.homepage-text2 {
+  font-size: 29px;
+}
+
+.footer-col-2 {
+  width: unset !important;
+  float:left;
+}
+.footer-col-3 {
+  width: unset !important;
+  float:right !important;
+}
