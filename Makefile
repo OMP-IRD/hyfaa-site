@@ -5,10 +5,12 @@ IMAGE=hyfaa-site
 all: docker-build docker-push
 
 docker-build:
-	docker build -t pigeosolutions/${IMAGE}:${TAG} .
+	docker build -t pigeosolutions/${IMAGE}:latest .
+	docker tag pigeosolutions/${IMAGE}:latest pigeosolutions/${IMAGE}:${TAG}
 
 docker-push:
 	docker push pigeosolutions/${IMAGE}:${TAG}
+	docker push pigeosolutions/${IMAGE}:latest
 
 docker-serve:
 	docker run --rm -it -p 80:80 pigeosolutions/${IMAGE}:${TAG}
