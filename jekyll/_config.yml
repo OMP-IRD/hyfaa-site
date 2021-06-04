@@ -39,7 +39,9 @@ theme: minima
 # Excluded items can be processed by explicitly listing the directories or
 # their entries' file path in the `include:` list.
 #
-# exclude:
+extensions: [footnotes]
+exclude:
+  - assets/img/contacts.odt
 #   - .sass-cache/
 #   - .jekyll-cache/
 #   - gemfiles/

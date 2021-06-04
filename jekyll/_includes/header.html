@@ -19,7 +19,8 @@
         </label>
 
         <div class="trigger">
-          <a class="page-link back-link" href="/" alt="Retourner à l'interface cartographique" title="Retourner à l'interface cartographique"> La carte </a>
+          <a class="page-link back-link" href="/" alt="Retourner à la carte des débits (HYFAA)" title="Retourner à la carte des débits (HYFAA)">Carte des débits</a>
+          <a class="page-link back-link" href="http://hydrosatniger.pigeosolutions.fr" alt="Retourner à la carte des hauteurs d'eau (Alti Niger)" title="Retourner à la carte des hauteurs d'eau (Alti Niger)">Hauteurs d'eau</a>
           {%- for path in page_paths -%}
             {%- assign my_page = site.pages | where: "path", path | first -%}
             {%- if my_page.short_title -%}

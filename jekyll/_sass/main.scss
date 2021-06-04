@@ -45,8 +45,11 @@ $header-bg-color:   white !default;
   font-weight: 450;
 }
 
-h1, h2, h3, h4, h5, h6 {
+.post-content h1, h2, h3, h4, h5, h6 {
   clear:left;
+}
+.post-content h1 {
+  margin-top: 40px !important;
 }
 
 .lightgrey-bg {
@@ -71,4 +74,11 @@ h1, h2, h3, h4, h5, h6 {
 .footer-col-3 {
   width: unset !important;
   float:right !important;
+}
+
+.footnotes {
+  padding: 1em;
+  margin-top: 60px;
+  border: dashed lightgray 1px;
+  font-size: small;
 }

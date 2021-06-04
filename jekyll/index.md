@@ -9,7 +9,7 @@ layout: page
 
 
 {:.homepage-text2}
-Basé sur des données spatiales de pluie (actuellement, GSMAP) et hauteurs d’eau (HYDROWEB/HydrosatNiger), intégrées dans un modèle de grand bassin (MGB)
+Basé sur des données spatiales de pluie (actuellement, [GSMAP](https://sharaku.eorc.jaxa.jp/GSMaP_NOW/index.htm)) et hauteurs d’eau ([HYDROWEB/HydrosatNiger](http://hydrosatniger.pigeosolutions.fr/)), intégrées dans un modèle de grand bassin ([MGB](https://www.ufrgs.br/lsh/mgb/)) grâce à un séquenceur ([HYFAA](https://github.com/OMP-IRD/hyfaa-scheduler))
 
 <br />
 <br />
@@ -26,4 +26,4 @@ Basé sur des données spatiales de pluie (actuellement, GSMAP) et hauteurs d’
 ![Magellium]({{ site.baseurl }}/assets/img/logo-magellium.png){:class="logo"}
 ![LEGOS]({{ site.baseurl }}/assets/img/logo-legos.png){:class="logo"}
 ![GET]({{ site.baseurl }}/assets/img/logo-get.png){:class="logo"}
-![IPH]({{ site.baseurl }}/assets/img/logo-iph.png){:class="logo"}
+![IPH]({{ site.baseurl }}/assets/img/logo-iph.jpg){:class="logo"}
